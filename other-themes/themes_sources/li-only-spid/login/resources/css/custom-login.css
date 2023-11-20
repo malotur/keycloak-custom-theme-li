@@ -1,0 +1,62 @@
+.login-pf body {
+    background: #fff;
+}
+
+.login-pf-page-header {
+    background-image: url("../img/logo_regione.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 150px;
+    background-clip: padding-box;
+    background-color: #002845;
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    height: 150px;
+    padding: 10px;
+}
+@media (max-width: 767px) {
+    .login-pf-page-header {
+        background-image: url("../img/logo_regione.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 558px 176px;
+        background-clip: padding-box;
+        background-color: #002845;
+        margin: auto;
+        width: 100%;
+        max-width: 500px;
+        height: 176px;
+        padding: 10px;
+    }
+}
+@media (max-width: 1024px) {
+    .login-pf-page-header {
+        background-image: url("../img/logo_regione.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 558px 176px;
+        background-clip: padding-box;
+        background-color: #002845;
+        margin: auto;
+        width: 90%;
+        max-width: 500px;
+        height: 176px;
+        padding: 10px;
+    }
+}
+.card-pf {
+    border-color: #002845;
+}
+
+#kc-header-wrapper {
+    display: none;
+}
+
+#kc-social-providers h4,hr {
+   display: none;
+}
+
+#kc-form {
+    display: none;
+}

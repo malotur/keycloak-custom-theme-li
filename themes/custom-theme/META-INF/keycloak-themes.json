@@ -1,11 +1,11 @@
 {
   "themes": [
     {
-      "name": "custom",
+      "name": "li-base",
       "types": ["login"]
     },
     {
-      "name": "custom.v2",
+      "name": "li-only-spid",
       "types": ["login"]
     }
   ]
