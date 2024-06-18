@@ -15,36 +15,36 @@
     height: 150px;
     padding: 10px;
 }
-@media (max-width: 767px) {
-    .login-pf-page-header {
-        background-image: url("../img/logo_regione.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 558px 176px;
-        background-clip: padding-box;
-        background-color: #002845;
-        margin: auto;
-        width: 100%;
-        max-width: 500px;
-        height: 176px;
-        padding: 10px;
-    }
-}
 @media (max-width: 1024px) {
     .login-pf-page-header {
         background-image: url("../img/logo_regione.png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 558px 176px;
+        background-size: 80vw;
         background-clip: padding-box;
         background-color: #002845;
         margin: auto;
         width: 90%;
         max-width: 500px;
-        height: 176px;
+        height: 30vw;
         padding: 10px;
     }
 }
+/*@media (max-width: 1024px) {*/
+/*    .login-pf-page-header {*/
+/*        background-image: url("../img/logo_regione.png");*/
+/*        background-repeat: no-repeat;*/
+/*        background-position: center;*/
+/*        background-size: 558px 176px;*/
+/*        background-clip: padding-box;*/
+/*        background-color: #002845;*/
+/*        margin: auto;*/
+/*        width: 90%;*/
+/*        max-width: 500px;*/
+/*        height: 176px;*/
+/*        padding: 10px;*/
+/*    }*/
+/*}*/
 .card-pf {
     border-color: #002845;
 }
